@@ -1,0 +1,28 @@
+.story-adventure {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .start-button {
+    background-color: #03dac6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .start-button:hover {
+    background-color: #018786;
+  }
+  
+  .story-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }

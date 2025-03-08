@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #6200ea;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: #3700b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.nav-button:hover {
+  background-color: #7c4dff;
+}
+
+main {
+  padding: 20px;
+}
+
+.start-button {
+  background-color: #03dac6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.start-button:hover {
+  background-color: #018786;
+}
+
+.code-input {
+  width: 80%;
+  height: 150px;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.run-button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.run-button:hover {
+  background-color: #c60055;
+}
+
+.output {
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.leaderboard th,
+.leaderboard td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.leaderboard th {
+  background-color: #6200ea;
+  color: white;
+}

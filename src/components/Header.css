@@ -1,0 +1,32 @@
+.header {
+    background-color: #6200ea;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    background-color: #3700b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .nav-button:hover {
+    background-color: #7c4dff;
+  }
